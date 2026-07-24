@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.10"
 
-      - run: pip install pipenv
+      - run: pip install pipenv flake8
       - run: pipenv install
       - run: pipenv run lint
 
